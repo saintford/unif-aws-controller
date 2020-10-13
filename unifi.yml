@@ -18,16 +18,15 @@ Parameters:
 
   UbuntuImageId:
     Type: AWS::EC2::Image::Id
-    Default: ami-000c2343cf03d7fd7
-    Description: AMI ID for latest Ubuntu 16.04
+    Default: ami-06e54d05255faf8f6
+    Description: AMI ID for latest Ubuntu 20.04
 
   InstanceType:
     Type: String
     Description: Instance size for the controllers
-    Default: t3a.micro
+    Default: t2.micro
     AllowedValues:
-      - t3a.micro
-      - t3.micro
+      - t2.micro
 
   LoadBalancerCertArn:
     Type: String
