@@ -1,7 +1,7 @@
 # Example: Ubiquiti Unifi Controller on AWS
 This is a set of Cloudformation templates to deploy a Ubiquiti Unifi Controller on AWS. The key components are:
   - Network Load Balancer
-  - EC2 instances running Ubuntu 16.04
+  - EC2 instances running Ubuntu 20.04
   - Elastic Filesystem for shared Unifi data
   - AWS Backup for daily EFS backups
 
